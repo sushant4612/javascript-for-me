@@ -1,0 +1,21 @@
+.getElementById()
+to select element by id
+.id - gives name of the id 
+.className - gives name of the class 
+.getAttribute() - we can pass attribute and its give the name of it
+.setAttribute() - we can pass attribute name and value note - in case of class it overwrite the new
+
+
+
+.innerText vs .innerHTML vs .textContent
+
+.innerText gives the normal which is visible
+.textContent gives the hidden text also if there are some
+.innerHTML gives the whole text includeing any tags
+
+
+.querySelector() vs .querySelectorAll()
+.querySelector() gives the first node which was specified whereas .querySelectorAll() gives the nodeList of all the node which was specified and on nodeList we can apply forEach() loop
+
+
+.getElementsByClassnames() this return a HTMLcollection and html collection doesn't have methods related to array so we have to convrt first it to array so we use Array.from() method to convet it to array so that now we can apply array methods

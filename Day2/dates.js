@@ -1,17 +1,17 @@
 let myDate = new Date();
 
-// console.log(myDate.toDateString());
+console.log(myDate.toDateString());
 // console.log(myDate.toISOString());
 // console.log(myDate.toString());
 // console.log(myDate.toLocaleDateString());
 // console.log(myDate.toLocaleTimeString());
-// console.log(myDate.toJSON());
+console.log(myDate.toJSON());
 
 // To declare a particular date
 
 // let currentDate = new Date(2023,2,14);
 let currentDate = new Date("2/14/2003");
-console.log(currentDate.toLocaleDateString());
+// console.log(currentDate.toLocaleDateString());
 
 
 // to get current timestamp
