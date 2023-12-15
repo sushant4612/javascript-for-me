@@ -1,0 +1,20 @@
+javascript - Synchronous
+             Single threaded
+             (Default)
+
+Execution Context - code execute line by line 
+each operations wait until the last one complete it's executing
+
+Blocking Code vs Non Blocking Code
+blocking code are those which runs one by one it doesn't go to next line before executing the first
+whereas the non blocking code is code which delegate the task to someone else and runs the code bellow it and returns it at the end.
+
+javascript stanalone is a single threaded language but in browser it uses web api and in node environment node.js to create a context to run this delegated task and it return back in queue called callback queue and at the end it get runs in the code at the end
+
+
+setTimeout() :- it is one of the function which is not the part of core javascript which means it delegate the task webapi
+
+parameter (handler,timeout in milisecond)
+handler is nothing but a call back function which execute after that many time
+
+clearIntervel() :- if we want not to execute the setInterval task then we can use clearInterval

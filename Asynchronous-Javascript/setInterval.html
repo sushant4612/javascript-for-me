@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Interval</title>
+</head>
+<body>
+    <h1>Hello, My name is Sushant</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <script>
+        let interval;
+        document.querySelector('#start').addEventListener('click',() =>{
+            interval = setInterval((str) => {
+                console.log("Hi " + Date.now() + " " + str);
+            },2000, "sushant");
+        })
+
+        document.querySelector('#stop').addEventListener('click',() =>{
+            clearInterval(interval);
+        })
+    </script>
+</body>
+</html>
