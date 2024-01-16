@@ -10,3 +10,5 @@ true => 1 && false => 0
 0 => false
 "" => false
 "sushant" => true
+
+https://medium.com/@atuljha2402/understanding-javascript-type-coercion-type-conversion-a2ce84c00331#:~:text=Type%20coercion%20refers%20to%20the,complete%20the%20operation%20or%20comparison.
