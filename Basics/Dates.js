@@ -20,4 +20,3 @@ let timestamp = Date.now(); // it was in milisecond
 // and we can also enclosed it into math.floor()
 
 console.log(Math.floor((timestamp)/1000));
-
